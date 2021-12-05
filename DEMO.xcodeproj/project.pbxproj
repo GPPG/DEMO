@@ -16,6 +16,15 @@
 		E04A64F027532AE500ECDC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04A64EE27532AE500ECDC62 /* LaunchScreen.storyboard */; };
 		E04A64F327532AE500ECDC62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A64F227532AE500ECDC62 /* main.m */; };
 		E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A64FB27532DAD00ECDC62 /* GCD.m */; };
+		E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6500275C5A2200ECDC62 /* GPTabBarController.m */; };
+		E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6503275C5AC100ECDC62 /* GPNavigationController.m */; };
+		E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6507275C5AED00ECDC62 /* UIImage+GPImage.m */; };
+		E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6509275C5AED00ECDC62 /* UIView+GPLayout.m */; };
+		E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A650A275C5AED00ECDC62 /* CALayer+PauseAimate.m */; };
+		E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6511275C5B2600ECDC62 /* GPMiddleView.m */; };
+		E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6513275C5B2600ECDC62 /* GPNavBar.m */; };
+		E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6515275C5B2600ECDC62 /* GPTabBar.m */; };
+		E04A651B275C5B2600ECDC62 /* GPMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,23 @@
 		E04A64F227532AE500ECDC62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E04A64FA27532DAD00ECDC62 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		E04A64FB27532DAD00ECDC62 /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		E04A64FF275C5A2200ECDC62 /* GPTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPTabBarController.h; sourceTree = "<group>"; };
+		E04A6500275C5A2200ECDC62 /* GPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPTabBarController.m; sourceTree = "<group>"; };
+		E04A6502275C5AC100ECDC62 /* GPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPNavigationController.h; sourceTree = "<group>"; };
+		E04A6503275C5AC100ECDC62 /* GPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPNavigationController.m; sourceTree = "<group>"; };
+		E04A6505275C5AED00ECDC62 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		E04A6506275C5AED00ECDC62 /* UIImage+GPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GPImage.h"; sourceTree = "<group>"; };
+		E04A6507275C5AED00ECDC62 /* UIImage+GPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GPImage.m"; sourceTree = "<group>"; };
+		E04A6508275C5AED00ECDC62 /* UIView+GPLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GPLayout.h"; sourceTree = "<group>"; };
+		E04A6509275C5AED00ECDC62 /* UIView+GPLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GPLayout.m"; sourceTree = "<group>"; };
+		E04A650A275C5AED00ECDC62 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		E04A6511275C5B2600ECDC62 /* GPMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMiddleView.m; sourceTree = "<group>"; };
+		E04A6512275C5B2600ECDC62 /* GPNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNavBar.h; sourceTree = "<group>"; };
+		E04A6513275C5B2600ECDC62 /* GPNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNavBar.m; sourceTree = "<group>"; };
+		E04A6514275C5B2600ECDC62 /* GPMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMiddleView.h; sourceTree = "<group>"; };
+		E04A6515275C5B2600ECDC62 /* GPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTabBar.m; sourceTree = "<group>"; };
+		E04A6516275C5B2600ECDC62 /* GPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTabBar.h; sourceTree = "<group>"; };
+		E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPMiddleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +114,8 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04A64FE275C587C00ECDC62 /* Na&TA */,
+				E04A64FD275C583D00ECDC62 /* Category */,
 				E04A64F927532D9500ECDC62 /* GCD */,
 				E04A64E027532AE200ECDC62 /* AppDelegate.h */,
 				E04A64E127532AE200ECDC62 /* AppDelegate.m */,
@@ -111,6 +139,53 @@
 				E04A64FB27532DAD00ECDC62 /* GCD.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		E04A64FD275C583D00ECDC62 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E04A6505275C5AED00ECDC62 /* CALayer+PauseAimate.h */,
+				E04A650A275C5AED00ECDC62 /* CALayer+PauseAimate.m */,
+				E04A6506275C5AED00ECDC62 /* UIImage+GPImage.h */,
+				E04A6507275C5AED00ECDC62 /* UIImage+GPImage.m */,
+				E04A6508275C5AED00ECDC62 /* UIView+GPLayout.h */,
+				E04A6509275C5AED00ECDC62 /* UIView+GPLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E04A64FE275C587C00ECDC62 /* Na&TA */ = {
+			isa = PBXGroup;
+			children = (
+				E04A6510275C5B1400ECDC62 /* View */,
+				E04A650F275C5B0700ECDC62 /* Controller */,
+			);
+			path = "Na&TA";
+			sourceTree = "<group>";
+		};
+		E04A650F275C5B0700ECDC62 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E04A64FF275C5A2200ECDC62 /* GPTabBarController.h */,
+				E04A6500275C5A2200ECDC62 /* GPTabBarController.m */,
+				E04A6502275C5AC100ECDC62 /* GPNavigationController.h */,
+				E04A6503275C5AC100ECDC62 /* GPNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E04A6510275C5B1400ECDC62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E04A6514275C5B2600ECDC62 /* GPMiddleView.h */,
+				E04A6511275C5B2600ECDC62 /* GPMiddleView.m */,
+				E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */,
+				E04A6512275C5B2600ECDC62 /* GPNavBar.h */,
+				E04A6513275C5B2600ECDC62 /* GPNavBar.m */,
+				E04A6516275C5B2600ECDC62 /* GPTabBar.h */,
+				E04A6515275C5B2600ECDC62 /* GPTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04A651B275C5B2600ECDC62 /* GPMiddleView.xib in Resources */,
 				E04A64F027532AE500ECDC62 /* LaunchScreen.storyboard in Resources */,
 				E04A64ED27532AE500ECDC62 /* Assets.xcassets in Resources */,
 				E04A64EB27532AE200ECDC62 /* Main.storyboard in Resources */,
@@ -209,11 +285,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
+				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
+				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
 				E04A64F327532AE500ECDC62 /* main.m in Sources */,
+				E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */,
+				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
+				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
+				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
+				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
