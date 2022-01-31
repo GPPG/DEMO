@@ -25,6 +25,7 @@
 		E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6513275C5B2600ECDC62 /* GPNavBar.m */; };
 		E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6515275C5B2600ECDC62 /* GPTabBar.m */; };
 		E04A651B275C5B2600ECDC62 /* GPMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */; };
+		E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD6927A6370E005E1585 /* MainModuleAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		E04A6515275C5B2600ECDC62 /* GPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTabBar.m; sourceTree = "<group>"; };
 		E04A6516275C5B2600ECDC62 /* GPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTabBar.h; sourceTree = "<group>"; };
 		E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPMiddleView.xib; sourceTree = "<group>"; };
+		E04FAD6827A6370E005E1585 /* MainModuleAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
+		E04FAD6927A6370E005E1585 /* MainModuleAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 		E04A64FE275C587C00ECDC62 /* Na&TA */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD6827A6370E005E1585 /* MainModuleAPI.h */,
+				E04FAD6927A6370E005E1585 /* MainModuleAPI.m */,
 				E04A6510275C5B1400ECDC62 /* View */,
 				E04A650F275C5B0700ECDC62 /* Controller */,
 			);
@@ -296,6 +301,7 @@
 				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
 				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
+				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
 			);
