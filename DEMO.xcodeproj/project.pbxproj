@@ -26,6 +26,9 @@
 		E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E04A6515275C5B2600ECDC62 /* GPTabBar.m */; };
 		E04A651B275C5B2600ECDC62 /* GPMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */; };
 		E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD6927A6370E005E1585 /* MainModuleAPI.m */; };
+		E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD6F27A8DD08005E1585 /* GPSegmenBarConfig.m */; };
+		E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */; };
+		E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,12 @@
 		E04A6517275C5B2600ECDC62 /* GPMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPMiddleView.xib; sourceTree = "<group>"; };
 		E04FAD6827A6370E005E1585 /* MainModuleAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
 		E04FAD6927A6370E005E1585 /* MainModuleAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
+		E04FAD6E27A8DD08005E1585 /* GPSegmenBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSegmenBarConfig.h; sourceTree = "<group>"; };
+		E04FAD6F27A8DD08005E1585 /* GPSegmenBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSegmenBarConfig.m; sourceTree = "<group>"; };
+		E04FAD7127A8E01C005E1585 /* GPSegmentBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSegmentBarView.h; sourceTree = "<group>"; };
+		E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSegmentBarView.m; sourceTree = "<group>"; };
+		E04FAD7427A969E1005E1585 /* GPSementBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSementBarViewController.h; sourceTree = "<group>"; };
+		E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSementBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,8 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD6C27A78414005E1585 /* SegmentBar */,
+				E04FAD6B27A783C7005E1585 /* Download */,
 				E04A64FE275C587C00ECDC62 /* Na&TA */,
 				E04A64FD275C583D00ECDC62 /* Category */,
 				E04A64F927532D9500ECDC62 /* GCD */,
@@ -193,6 +204,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E04FAD6B27A783C7005E1585 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		E04FAD6C27A78414005E1585 /* SegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				E04FAD7427A969E1005E1585 /* GPSementBarViewController.h */,
+				E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */,
+				E04FAD7127A8E01C005E1585 /* GPSegmentBarView.h */,
+				E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */,
+				E04FAD6E27A8DD08005E1585 /* GPSegmenBarConfig.h */,
+				E04FAD6F27A8DD08005E1585 /* GPSegmenBarConfig.m */,
+			);
+			path = SegmentBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +251,7 @@
 		E04A64D527532AE200ECDC62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GP;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "郭鹏";
 				TargetAttributes = {
@@ -297,11 +329,14 @@
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
 				E04A64F327532AE500ECDC62 /* main.m in Sources */,
+				E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */,
 				E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */,
 				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
 				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
+				E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */,
 				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
+				E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
 			);
