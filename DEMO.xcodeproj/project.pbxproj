@@ -29,6 +29,7 @@
 		E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD6F27A8DD08005E1585 /* GPSegmenBarConfig.m */; };
 		E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */; };
 		E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */; };
+		E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,9 @@
 		E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSegmentBarView.m; sourceTree = "<group>"; };
 		E04FAD7427A969E1005E1585 /* GPSementBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSementBarViewController.h; sourceTree = "<group>"; };
 		E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSementBarViewController.m; sourceTree = "<group>"; };
+		E04FAD7827AA2EEF005E1585 /* GPPictureCycleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPictureCycleProtocol.h; sourceTree = "<group>"; };
+		E04FAD7927AA2F13005E1585 /* GPPictureCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPictureCycleView.h; sourceTree = "<group>"; };
+		E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPictureCycleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD7727AA2E8F005E1585 /* GPPictureCycleView */,
 				E04FAD6C27A78414005E1585 /* SegmentBar */,
 				E04FAD6B27A783C7005E1585 /* Download */,
 				E04A64FE275C587C00ECDC62 /* Na&TA */,
@@ -222,6 +227,16 @@
 				E04FAD6F27A8DD08005E1585 /* GPSegmenBarConfig.m */,
 			);
 			path = SegmentBar;
+			sourceTree = "<group>";
+		};
+		E04FAD7727AA2E8F005E1585 /* GPPictureCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				E04FAD7827AA2EEF005E1585 /* GPPictureCycleProtocol.h */,
+				E04FAD7927AA2F13005E1585 /* GPPictureCycleView.h */,
+				E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */,
+			);
+			path = GPPictureCycleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +340,7 @@
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
+				E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */,
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
