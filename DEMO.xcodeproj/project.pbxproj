@@ -30,6 +30,10 @@
 		E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7227A8E01C005E1585 /* GPSegmentBarView.m */; };
 		E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7527A969E1005E1585 /* GPSementBarViewController.m */; };
 		E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */; };
+		E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD7D27AA540D005E1585 /* NSString+GPString.m */; };
+		E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8027AA56BE005E1585 /* GPDownLoaderFileTool.m */; };
+		E04FAD8627AA5714005E1585 /* GPDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8327AA5714005E1585 /* GPDownLoader.m */; };
+		E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8527AA5714005E1585 /* GPDownLoadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +82,14 @@
 		E04FAD7827AA2EEF005E1585 /* GPPictureCycleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPictureCycleProtocol.h; sourceTree = "<group>"; };
 		E04FAD7927AA2F13005E1585 /* GPPictureCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPictureCycleView.h; sourceTree = "<group>"; };
 		E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPictureCycleView.m; sourceTree = "<group>"; };
+		E04FAD7C27AA540D005E1585 /* NSString+GPString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+GPString.h"; sourceTree = "<group>"; };
+		E04FAD7D27AA540D005E1585 /* NSString+GPString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+GPString.m"; sourceTree = "<group>"; };
+		E04FAD7F27AA56BE005E1585 /* GPDownLoaderFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPDownLoaderFileTool.h; sourceTree = "<group>"; };
+		E04FAD8027AA56BE005E1585 /* GPDownLoaderFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPDownLoaderFileTool.m; sourceTree = "<group>"; };
+		E04FAD8227AA5714005E1585 /* GPDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDownLoader.h; sourceTree = "<group>"; };
+		E04FAD8327AA5714005E1585 /* GPDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDownLoader.m; sourceTree = "<group>"; };
+		E04FAD8427AA5714005E1585 /* GPDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDownLoadManager.h; sourceTree = "<group>"; };
+		E04FAD8527AA5714005E1585 /* GPDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDownLoadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +181,8 @@
 				E04A6507275C5AED00ECDC62 /* UIImage+GPImage.m */,
 				E04A6508275C5AED00ECDC62 /* UIView+GPLayout.h */,
 				E04A6509275C5AED00ECDC62 /* UIView+GPLayout.m */,
+				E04FAD7C27AA540D005E1585 /* NSString+GPString.h */,
+				E04FAD7D27AA540D005E1585 /* NSString+GPString.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -212,6 +226,12 @@
 		E04FAD6B27A783C7005E1585 /* Download */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD8227AA5714005E1585 /* GPDownLoader.h */,
+				E04FAD8327AA5714005E1585 /* GPDownLoader.m */,
+				E04FAD8427AA5714005E1585 /* GPDownLoadManager.h */,
+				E04FAD8527AA5714005E1585 /* GPDownLoadManager.m */,
+				E04FAD7F27AA56BE005E1585 /* GPDownLoaderFileTool.h */,
+				E04FAD8027AA56BE005E1585 /* GPDownLoaderFileTool.m */,
 			);
 			path = Download;
 			sourceTree = "<group>";
@@ -338,12 +358,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
+				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
+				E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
 				E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */,
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
+				E04FAD8627AA5714005E1585 /* GPDownLoader.m in Sources */,
 				E04A64F327532AE500ECDC62 /* main.m in Sources */,
 				E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */,
 				E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */,
@@ -354,6 +377,7 @@
 				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
 				E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
+				E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
