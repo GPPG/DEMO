@@ -34,6 +34,11 @@
 		E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8027AA56BE005E1585 /* GPDownLoaderFileTool.m */; };
 		E04FAD8627AA5714005E1585 /* GPDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8327AA5714005E1585 /* GPDownLoader.m */; };
 		E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8527AA5714005E1585 /* GPDownLoadManager.m */; };
+		E04FAD8B27AB918A005E1585 /* NSURL+GPURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8A27AB918A005E1585 /* NSURL+GPURL.m */; };
+		E04FAD9427AB91B2005E1585 /* GPAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8C27AB91B1005E1585 /* GPAudioDownLoader.m */; };
+		E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8D27AB91B1005E1585 /* GPAudioFileTool.m */; };
+		E04FAD9627AB91B2005E1585 /* GPRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8F27AB91B1005E1585 /* GPRemotePlayer.m */; };
+		E04FAD9727AB91B2005E1585 /* GPResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9327AB91B2005E1585 /* GPResourceLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +95,16 @@
 		E04FAD8327AA5714005E1585 /* GPDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDownLoader.m; sourceTree = "<group>"; };
 		E04FAD8427AA5714005E1585 /* GPDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDownLoadManager.h; sourceTree = "<group>"; };
 		E04FAD8527AA5714005E1585 /* GPDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDownLoadManager.m; sourceTree = "<group>"; };
+		E04FAD8927AB918A005E1585 /* NSURL+GPURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+GPURL.h"; sourceTree = "<group>"; };
+		E04FAD8A27AB918A005E1585 /* NSURL+GPURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+GPURL.m"; sourceTree = "<group>"; };
+		E04FAD8C27AB91B1005E1585 /* GPAudioDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAudioDownLoader.m; sourceTree = "<group>"; };
+		E04FAD8D27AB91B1005E1585 /* GPAudioFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAudioFileTool.m; sourceTree = "<group>"; };
+		E04FAD8E27AB91B1005E1585 /* GPRemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRemotePlayer.h; sourceTree = "<group>"; };
+		E04FAD8F27AB91B1005E1585 /* GPRemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRemotePlayer.m; sourceTree = "<group>"; };
+		E04FAD9027AB91B1005E1585 /* GPAudioDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAudioDownLoader.h; sourceTree = "<group>"; };
+		E04FAD9127AB91B2005E1585 /* GPAudioFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAudioFileTool.h; sourceTree = "<group>"; };
+		E04FAD9227AB91B2005E1585 /* GPResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPResourceLoader.h; sourceTree = "<group>"; };
+		E04FAD9327AB91B2005E1585 /* GPResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPResourceLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +157,7 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD8827AA580E005E1585 /* GPRemotePlayer */,
 				E04FAD7727AA2E8F005E1585 /* GPPictureCycleView */,
 				E04FAD6C27A78414005E1585 /* SegmentBar */,
 				E04FAD6B27A783C7005E1585 /* Download */,
@@ -183,6 +199,8 @@
 				E04A6509275C5AED00ECDC62 /* UIView+GPLayout.m */,
 				E04FAD7C27AA540D005E1585 /* NSString+GPString.h */,
 				E04FAD7D27AA540D005E1585 /* NSString+GPString.m */,
+				E04FAD8927AB918A005E1585 /* NSURL+GPURL.h */,
+				E04FAD8A27AB918A005E1585 /* NSURL+GPURL.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -257,6 +275,21 @@
 				E04FAD7A27AA2F13005E1585 /* GPPictureCycleView.m */,
 			);
 			path = GPPictureCycleView;
+			sourceTree = "<group>";
+		};
+		E04FAD8827AA580E005E1585 /* GPRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E04FAD9027AB91B1005E1585 /* GPAudioDownLoader.h */,
+				E04FAD8C27AB91B1005E1585 /* GPAudioDownLoader.m */,
+				E04FAD9127AB91B2005E1585 /* GPAudioFileTool.h */,
+				E04FAD8D27AB91B1005E1585 /* GPAudioFileTool.m */,
+				E04FAD8E27AB91B1005E1585 /* GPRemotePlayer.h */,
+				E04FAD8F27AB91B1005E1585 /* GPRemotePlayer.m */,
+				E04FAD9227AB91B2005E1585 /* GPResourceLoader.h */,
+				E04FAD9327AB91B2005E1585 /* GPResourceLoader.m */,
+			);
+			path = GPRemotePlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,9 +393,12 @@
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
 				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
+				E04FAD8B27AB918A005E1585 /* NSURL+GPURL.m in Sources */,
+				E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */,
 				E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
 				E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */,
+				E04FAD9727AB91B2005E1585 /* GPResourceLoader.m in Sources */,
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
@@ -372,10 +408,12 @@
 				E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */,
 				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
 				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
+				E04FAD9627AB91B2005E1585 /* GPRemotePlayer.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
 				E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */,
 				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
 				E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */,
+				E04FAD9427AB91B2005E1585 /* GPAudioDownLoader.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
 				E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
