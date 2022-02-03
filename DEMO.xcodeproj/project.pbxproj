@@ -39,6 +39,10 @@
 		E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8D27AB91B1005E1585 /* GPAudioFileTool.m */; };
 		E04FAD9627AB91B2005E1585 /* GPRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD8F27AB91B1005E1585 /* GPRemotePlayer.m */; };
 		E04FAD9727AB91B2005E1585 /* GPResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9327AB91B2005E1585 /* GPResourceLoader.m */; };
+		E04FADA127AC1902005E1585 /* GPModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9C27AC1902005E1585 /* GPModelTool.m */; };
+		E04FADA227AC1902005E1585 /* GPTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9D27AC1902005E1585 /* GPTableTool.m */; };
+		E04FADA327AC1902005E1585 /* GPSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9E27AC1902005E1585 /* GPSqliteTool.m */; };
+		E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +109,14 @@
 		E04FAD9127AB91B2005E1585 /* GPAudioFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAudioFileTool.h; sourceTree = "<group>"; };
 		E04FAD9227AB91B2005E1585 /* GPResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPResourceLoader.h; sourceTree = "<group>"; };
 		E04FAD9327AB91B2005E1585 /* GPResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPResourceLoader.m; sourceTree = "<group>"; };
+		E04FAD9927AC1902005E1585 /* GPSqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSqliteTool.h; sourceTree = "<group>"; };
+		E04FAD9A27AC1902005E1585 /* GPModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPModelTool.h; sourceTree = "<group>"; };
+		E04FAD9B27AC1902005E1585 /* GPSqliteModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSqliteModelTool.h; sourceTree = "<group>"; };
+		E04FAD9C27AC1902005E1585 /* GPModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPModelTool.m; sourceTree = "<group>"; };
+		E04FAD9D27AC1902005E1585 /* GPTableTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTableTool.m; sourceTree = "<group>"; };
+		E04FAD9E27AC1902005E1585 /* GPSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSqliteTool.m; sourceTree = "<group>"; };
+		E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSqliteModelTool.m; sourceTree = "<group>"; };
+		E04FADA027AC1902005E1585 /* GPTableTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTableTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +169,7 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04FAD9827AB9325005E1585 /* GPSqlite */,
 				E04FAD8827AA580E005E1585 /* GPRemotePlayer */,
 				E04FAD7727AA2E8F005E1585 /* GPPictureCycleView */,
 				E04FAD6C27A78414005E1585 /* SegmentBar */,
@@ -292,6 +305,21 @@
 			path = GPRemotePlayer;
 			sourceTree = "<group>";
 		};
+		E04FAD9827AB9325005E1585 /* GPSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				E04FAD9A27AC1902005E1585 /* GPModelTool.h */,
+				E04FAD9C27AC1902005E1585 /* GPModelTool.m */,
+				E04FAD9B27AC1902005E1585 /* GPSqliteModelTool.h */,
+				E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */,
+				E04FAD9927AC1902005E1585 /* GPSqliteTool.h */,
+				E04FAD9E27AC1902005E1585 /* GPSqliteTool.m */,
+				E04FADA027AC1902005E1585 /* GPTableTool.h */,
+				E04FAD9D27AC1902005E1585 /* GPTableTool.m */,
+			);
+			path = GPSqlite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,6 +421,7 @@
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
 				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
+				E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */,
 				E04FAD8B27AB918A005E1585 /* NSURL+GPURL.m in Sources */,
 				E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */,
 				E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */,
@@ -402,6 +431,8 @@
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
+				E04FADA227AC1902005E1585 /* GPTableTool.m in Sources */,
+				E04FADA127AC1902005E1585 /* GPModelTool.m in Sources */,
 				E04FAD8627AA5714005E1585 /* GPDownLoader.m in Sources */,
 				E04A64F327532AE500ECDC62 /* main.m in Sources */,
 				E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */,
@@ -414,6 +445,7 @@
 				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
 				E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */,
 				E04FAD9427AB91B2005E1585 /* GPAudioDownLoader.m in Sources */,
+				E04FADA327AC1902005E1585 /* GPSqliteTool.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
 				E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
