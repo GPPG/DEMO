@@ -45,6 +45,14 @@
 		E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */; };
 		E04FADDF27B0FC4B005E1585 /* GPFunctionalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADDE27B0FC4B005E1585 /* GPFunctionalCalculator.m */; };
 		E04FADE227B0FD0F005E1585 /* GPChainedCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */; };
+		E04FADE527B107FF005E1585 /* GPRACBaseLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADE427B107FF005E1585 /* GPRACBaseLearning.m */; };
+		E04FADE827B10A1E005E1585 /* GPFlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADE627B10A1E005E1585 /* GPFlagItem.m */; };
+		E04FADEC27B10E3F005E1585 /* GPRACUseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADEB27B10E3F005E1585 /* GPRACUseScene.m */; };
+		E04FADF927B13F00005E1585 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF427B13EFF005E1585 /* MVVMViewModel.m */; };
+		E04FADFA27B13F00005E1585 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF227B13EFE005E1585 /* Model.m */; };
+		E04FADFB27B13F00005E1585 /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF127B13EFE005E1585 /* MVVMViewController.m */; };
+		E04FADFC27B13F00005E1585 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF027B13EFE005E1585 /* MVVMView.m */; };
+		E04FADFD27B13F00005E1585 /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF627B13EFF005E1585 /* ViewModelClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +131,21 @@
 		E04FADDE27B0FC4B005E1585 /* GPFunctionalCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFunctionalCalculator.m; sourceTree = "<group>"; };
 		E04FADE027B0FD0E005E1585 /* GPChainedCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPChainedCalculator.h; sourceTree = "<group>"; };
 		E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPChainedCalculator.m; sourceTree = "<group>"; };
+		E04FADE327B107FF005E1585 /* GPRACBaseLearning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRACBaseLearning.h; sourceTree = "<group>"; };
+		E04FADE427B107FF005E1585 /* GPRACBaseLearning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRACBaseLearning.m; sourceTree = "<group>"; };
+		E04FADE627B10A1E005E1585 /* GPFlagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFlagItem.m; sourceTree = "<group>"; };
+		E04FADE727B10A1E005E1585 /* GPFlagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFlagItem.h; sourceTree = "<group>"; };
+		E04FADEA27B10E3F005E1585 /* GPRACUseScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRACUseScene.h; sourceTree = "<group>"; };
+		E04FADEB27B10E3F005E1585 /* GPRACUseScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRACUseScene.m; sourceTree = "<group>"; };
+		E04FADF027B13EFE005E1585 /* MVVMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMView.m; sourceTree = "<group>"; };
+		E04FADF127B13EFE005E1585 /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		E04FADF227B13EFE005E1585 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		E04FADF327B13EFF005E1585 /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		E04FADF427B13EFF005E1585 /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		E04FADF527B13EFF005E1585 /* ViewModelClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelClass.h; sourceTree = "<group>"; };
+		E04FADF627B13EFF005E1585 /* ViewModelClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModelClass.m; sourceTree = "<group>"; };
+		E04FADF727B13EFF005E1585 /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
+		E04FADF827B13EFF005E1585 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +354,12 @@
 		E04FADD827B0F959005E1585 /* RAC */ = {
 			isa = PBXGroup;
 			children = (
+				E04FADED27B1108D005E1585 /* RAC&MVVM */,
+				E04FADE927B10A3A005E1585 /* Mode */,
+				E04FADE327B107FF005E1585 /* GPRACBaseLearning.h */,
+				E04FADE427B107FF005E1585 /* GPRACBaseLearning.m */,
+				E04FADEA27B10E3F005E1585 /* GPRACUseScene.h */,
+				E04FADEB27B10E3F005E1585 /* GPRACUseScene.m */,
 			);
 			path = RAC;
 			sourceTree = "<group>";
@@ -360,6 +389,31 @@
 				E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */,
 			);
 			path = Chained;
+			sourceTree = "<group>";
+		};
+		E04FADE927B10A3A005E1585 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E04FADE727B10A1E005E1585 /* GPFlagItem.h */,
+				E04FADE627B10A1E005E1585 /* GPFlagItem.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E04FADED27B1108D005E1585 /* RAC&MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E04FADF827B13EFF005E1585 /* Model.h */,
+				E04FADF227B13EFE005E1585 /* Model.m */,
+				E04FADF727B13EFF005E1585 /* MVVMView.h */,
+				E04FADF027B13EFE005E1585 /* MVVMView.m */,
+				E04FADF327B13EFF005E1585 /* MVVMViewController.h */,
+				E04FADF127B13EFE005E1585 /* MVVMViewController.m */,
+				E04FADF427B13EFF005E1585 /* MVVMViewModel.m */,
+				E04FADF527B13EFF005E1585 /* ViewModelClass.h */,
+				E04FADF627B13EFF005E1585 /* ViewModelClass.m */,
+			);
+			path = "RAC&MVVM";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,18 +534,23 @@
 			files = (
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
 				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
+				E04FADE827B10A1E005E1585 /* GPFlagItem.m in Sources */,
 				E04FADE227B0FD0F005E1585 /* GPChainedCalculator.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
 				E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */,
+				E04FADFC27B13F00005E1585 /* MVVMView.m in Sources */,
 				E04FAD8B27AB918A005E1585 /* NSURL+GPURL.m in Sources */,
 				E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */,
 				E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */,
 				E04FADDF27B0FC4B005E1585 /* GPFunctionalCalculator.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
 				E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */,
+				E04FADEC27B10E3F005E1585 /* GPRACUseScene.m in Sources */,
+				E04FADF927B13F00005E1585 /* MVVMViewModel.m in Sources */,
 				E04FAD9727AB91B2005E1585 /* GPResourceLoader.m in Sources */,
 				E04A64E827532AE200ECDC62 /* ViewController.m in Sources */,
 				E04A6501275C5A2200ECDC62 /* GPTabBarController.m in Sources */,
+				E04FADFB27B13F00005E1585 /* MVVMViewController.m in Sources */,
 				E04A64E227532AE200ECDC62 /* AppDelegate.m in Sources */,
 				E04FADA227AC1902005E1585 /* GPTableTool.m in Sources */,
 				E04FADA127AC1902005E1585 /* GPModelTool.m in Sources */,
@@ -502,12 +561,15 @@
 				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
 				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
 				E04FAD9627AB91B2005E1585 /* GPRemotePlayer.m in Sources */,
+				E04FADE527B107FF005E1585 /* GPRACBaseLearning.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
 				E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */,
 				E04FAD6A27A6370E005E1585 /* MainModuleAPI.m in Sources */,
+				E04FADFA27B13F00005E1585 /* Model.m in Sources */,
 				E04FAD7027A8DD08005E1585 /* GPSegmenBarConfig.m in Sources */,
 				E04FAD9427AB91B2005E1585 /* GPAudioDownLoader.m in Sources */,
 				E04FADA327AC1902005E1585 /* GPSqliteTool.m in Sources */,
+				E04FADFD27B13F00005E1585 /* ViewModelClass.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
 				E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
