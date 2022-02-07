@@ -43,6 +43,8 @@
 		E04FADA227AC1902005E1585 /* GPTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9D27AC1902005E1585 /* GPTableTool.m */; };
 		E04FADA327AC1902005E1585 /* GPSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9E27AC1902005E1585 /* GPSqliteTool.m */; };
 		E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */; };
+		E04FADDF27B0FC4B005E1585 /* GPFunctionalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADDE27B0FC4B005E1585 /* GPFunctionalCalculator.m */; };
+		E04FADE227B0FD0F005E1585 /* GPChainedCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +119,10 @@
 		E04FAD9E27AC1902005E1585 /* GPSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSqliteTool.m; sourceTree = "<group>"; };
 		E04FAD9F27AC1902005E1585 /* GPSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSqliteModelTool.m; sourceTree = "<group>"; };
 		E04FADA027AC1902005E1585 /* GPTableTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTableTool.h; sourceTree = "<group>"; };
+		E04FADDD27B0FC4B005E1585 /* GPFunctionalCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPFunctionalCalculator.h; sourceTree = "<group>"; };
+		E04FADDE27B0FC4B005E1585 /* GPFunctionalCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFunctionalCalculator.m; sourceTree = "<group>"; };
+		E04FADE027B0FD0E005E1585 /* GPChainedCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPChainedCalculator.h; sourceTree = "<group>"; };
+		E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPChainedCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,7 +338,6 @@
 		E04FADD927B0FAD2005E1585 /* Programming */ = {
 			isa = PBXGroup;
 			children = (
-				E04FADDC27B0FB5B005E1585 /* Reactive */,
 				E04FADDB27B0FB4E005E1585 /* Chained */,
 				E04FADDA27B0FB34005E1585 /* Functional */,
 			);
@@ -342,6 +347,8 @@
 		E04FADDA27B0FB34005E1585 /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				E04FADDD27B0FC4B005E1585 /* GPFunctionalCalculator.h */,
+				E04FADDE27B0FC4B005E1585 /* GPFunctionalCalculator.m */,
 			);
 			path = Functional;
 			sourceTree = "<group>";
@@ -349,15 +356,10 @@
 		E04FADDB27B0FB4E005E1585 /* Chained */ = {
 			isa = PBXGroup;
 			children = (
+				E04FADE027B0FD0E005E1585 /* GPChainedCalculator.h */,
+				E04FADE127B0FD0F005E1585 /* GPChainedCalculator.m */,
 			);
 			path = Chained;
-			sourceTree = "<group>";
-		};
-		E04FADDC27B0FB5B005E1585 /* Reactive */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Reactive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,11 +480,13 @@
 			files = (
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
 				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
+				E04FADE227B0FD0F005E1585 /* GPChainedCalculator.m in Sources */,
 				E04A650B275C5AED00ECDC62 /* UIImage+GPImage.m in Sources */,
 				E04FADA427AC1902005E1585 /* GPSqliteModelTool.m in Sources */,
 				E04FAD8B27AB918A005E1585 /* NSURL+GPURL.m in Sources */,
 				E04FAD9527AB91B2005E1585 /* GPAudioFileTool.m in Sources */,
 				E04FAD7E27AA540D005E1585 /* NSString+GPString.m in Sources */,
+				E04FADDF27B0FC4B005E1585 /* GPFunctionalCalculator.m in Sources */,
 				E04A64FC27532DAD00ECDC62 /* GCD.m in Sources */,
 				E04FAD7B27AA2F13005E1585 /* GPPictureCycleView.m in Sources */,
 				E04FAD9727AB91B2005E1585 /* GPResourceLoader.m in Sources */,

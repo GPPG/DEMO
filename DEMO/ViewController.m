@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GPChainedCalculator.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+        GPChainedCalculator *mgr = [[GPChainedCalculator alloc] init];
+    
+        mgr.add(5).add(5).add(7).add(8);
+
 }
 
 
