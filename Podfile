@@ -6,5 +6,6 @@ target 'DEMO' do
   use_frameworks!
 
   # Pods for DEMO
+ pod 'ReactiveObjC'
 
 end

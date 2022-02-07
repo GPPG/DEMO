@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 48a76ae8ec23bf9bfe5a9eb41ef1dc5c9a3ff487
+PODS:
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - ReactiveObjC
+
+SPEC REPOS:
+  trunk:
+    - ReactiveObjC
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 5d16ca2260b3ff0d7031fc09d53e0695eb8b1ee9
 
 COCOAPODS: 1.10.2

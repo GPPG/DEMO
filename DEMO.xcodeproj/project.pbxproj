@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -169,6 +169,8 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E04FADD927B0FAD2005E1585 /* Programming */,
+				E04FADD827B0F959005E1585 /* RAC */,
 				E04FAD9827AB9325005E1585 /* GPSqlite */,
 				E04FAD8827AA580E005E1585 /* GPRemotePlayer */,
 				E04FAD7727AA2E8F005E1585 /* GPPictureCycleView */,
@@ -320,6 +322,44 @@
 			path = GPSqlite;
 			sourceTree = "<group>";
 		};
+		E04FADD827B0F959005E1585 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		E04FADD927B0FAD2005E1585 /* Programming */ = {
+			isa = PBXGroup;
+			children = (
+				E04FADDC27B0FB5B005E1585 /* Reactive */,
+				E04FADDB27B0FB4E005E1585 /* Chained */,
+				E04FADDA27B0FB34005E1585 /* Functional */,
+			);
+			path = Programming;
+			sourceTree = "<group>";
+		};
+		E04FADDA27B0FB34005E1585 /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		E04FADDB27B0FB4E005E1585 /* Chained */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chained;
+			sourceTree = "<group>";
+		};
+		E04FADDC27B0FB5B005E1585 /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reactive;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -331,6 +371,7 @@
 				E04A64D927532AE200ECDC62 /* Sources */,
 				E04A64DA27532AE200ECDC62 /* Frameworks */,
 				E04A64DB27532AE200ECDC62 /* Resources */,
+				E0CED57D3D2AA4730E13CB51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,6 +450,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CED57D3D2AA4730E13CB51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DEMO/Pods-DEMO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DEMO/Pods-DEMO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEMO/Pods-DEMO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
