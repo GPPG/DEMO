@@ -53,6 +53,7 @@
 		E04FADFB27B13F00005E1585 /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF127B13EFE005E1585 /* MVVMViewController.m */; };
 		E04FADFC27B13F00005E1585 /* MVVMView.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF027B13EFE005E1585 /* MVVMView.m */; };
 		E04FADFD27B13F00005E1585 /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF627B13EFF005E1585 /* ViewModelClass.m */; };
+		E04FAE0027B13FBA005E1585 /* GPRACAdvancedLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADFF27B13FBA005E1585 /* GPRACAdvancedLearning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +147,8 @@
 		E04FADF627B13EFF005E1585 /* ViewModelClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModelClass.m; sourceTree = "<group>"; };
 		E04FADF727B13EFF005E1585 /* MVVMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMView.h; sourceTree = "<group>"; };
 		E04FADF827B13EFF005E1585 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		E04FADFE27B13FBA005E1585 /* GPRACAdvancedLearning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPRACAdvancedLearning.h; sourceTree = "<group>"; };
+		E04FADFF27B13FBA005E1585 /* GPRACAdvancedLearning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRACAdvancedLearning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +361,8 @@
 				E04FADE927B10A3A005E1585 /* Mode */,
 				E04FADE327B107FF005E1585 /* GPRACBaseLearning.h */,
 				E04FADE427B107FF005E1585 /* GPRACBaseLearning.m */,
+				E04FADFE27B13FBA005E1585 /* GPRACAdvancedLearning.h */,
+				E04FADFF27B13FBA005E1585 /* GPRACAdvancedLearning.m */,
 				E04FADEA27B10E3F005E1585 /* GPRACUseScene.h */,
 				E04FADEB27B10E3F005E1585 /* GPRACUseScene.m */,
 			);
@@ -555,6 +560,7 @@
 				E04FADA227AC1902005E1585 /* GPTableTool.m in Sources */,
 				E04FADA127AC1902005E1585 /* GPModelTool.m in Sources */,
 				E04FAD8627AA5714005E1585 /* GPDownLoader.m in Sources */,
+				E04FAE0027B13FBA005E1585 /* GPRACAdvancedLearning.m in Sources */,
 				E04A64F327532AE500ECDC62 /* main.m in Sources */,
 				E04FAD7327A8E01C005E1585 /* GPSegmentBarView.m in Sources */,
 				E04A6518275C5B2600ECDC62 /* GPMiddleView.m in Sources */,
