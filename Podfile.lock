@@ -1,16 +1,20 @@
 PODS:
+  - GPUImage (0.1.7)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
+  - GPUImage
   - ReactiveObjC
 
 SPEC REPOS:
   trunk:
+    - GPUImage
     - ReactiveObjC
 
 SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 5d16ca2260b3ff0d7031fc09d53e0695eb8b1ee9
+PODFILE CHECKSUM: 5a64c9f640a9cf94ae052fee50c889e2935ce92a
 
 COCOAPODS: 1.10.2

@@ -55,6 +55,8 @@
 		E04FADFD27B13F00005E1585 /* ViewModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADF627B13EFF005E1585 /* ViewModelClass.m */; };
 		E04FAE0027B13FBA005E1585 /* GPRACAdvancedLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = E04FADFF27B13FBA005E1585 /* GPRACAdvancedLearning.m */; };
 		E0FB012227B1549200C71112 /* UIView+GPView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012127B1549200C71112 /* UIView+GPView.m */; };
+		E0FB012627B2A2E400C71112 /* GPVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012427B2A2E400C71112 /* GPVideoCamera.m */; };
+		E0FB012927B2A60C00C71112 /* GPOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012827B2A60C00C71112 /* GPOpenGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,6 +154,10 @@
 		E04FADFF27B13FBA005E1585 /* GPRACAdvancedLearning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPRACAdvancedLearning.m; sourceTree = "<group>"; };
 		E0FB012027B1549200C71112 /* UIView+GPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GPView.h"; sourceTree = "<group>"; };
 		E0FB012127B1549200C71112 /* UIView+GPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GPView.m"; sourceTree = "<group>"; };
+		E0FB012427B2A2E400C71112 /* GPVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPVideoCamera.m; sourceTree = "<group>"; };
+		E0FB012527B2A2E400C71112 /* GPVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPVideoCamera.h; sourceTree = "<group>"; };
+		E0FB012727B2A60B00C71112 /* GPOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOpenGLView.h; sourceTree = "<group>"; };
+		E0FB012827B2A60C00C71112 /* GPOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPOpenGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +210,7 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E0FB012327B29B4400C71112 /* Camera */,
 				E04FADD927B0FAD2005E1585 /* Programming */,
 				E04FADD827B0F959005E1585 /* RAC */,
 				E04FAD9827AB9325005E1585 /* GPSqlite */,
@@ -426,6 +433,17 @@
 			path = "RAC&MVVM";
 			sourceTree = "<group>";
 		};
+		E0FB012327B29B4400C71112 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E0FB012527B2A2E400C71112 /* GPVideoCamera.h */,
+				E0FB012427B2A2E400C71112 /* GPVideoCamera.m */,
+				E0FB012727B2A60B00C71112 /* GPOpenGLView.h */,
+				E0FB012827B2A60C00C71112 /* GPOpenGLView.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -543,6 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04A6519275C5B2600ECDC62 /* GPNavBar.m in Sources */,
+				E0FB012927B2A60C00C71112 /* GPOpenGLView.m in Sources */,
 				E04FAD8127AA56BE005E1585 /* GPDownLoaderFileTool.m in Sources */,
 				E04FADE827B10A1E005E1585 /* GPFlagItem.m in Sources */,
 				E04FADE227B0FD0F005E1585 /* GPChainedCalculator.m in Sources */,
@@ -573,6 +592,7 @@
 				E04A6504275C5AC100ECDC62 /* GPNavigationController.m in Sources */,
 				E04A651A275C5B2600ECDC62 /* GPTabBar.m in Sources */,
 				E04FAD9627AB91B2005E1585 /* GPRemotePlayer.m in Sources */,
+				E0FB012627B2A2E400C71112 /* GPVideoCamera.m in Sources */,
 				E04FADE527B107FF005E1585 /* GPRACBaseLearning.m in Sources */,
 				E04A64E527532AE200ECDC62 /* SceneDelegate.m in Sources */,
 				E04FAD7627A969E1005E1585 /* GPSementBarViewController.m in Sources */,

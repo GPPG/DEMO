@@ -7,5 +7,6 @@ target 'DEMO' do
 
   # Pods for DEMO
  pod 'ReactiveObjC'
+ pod 'GPUImage'
 
 end

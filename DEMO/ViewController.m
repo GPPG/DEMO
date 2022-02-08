@@ -8,9 +8,13 @@
 
 #import "ViewController.h"
 #import "GPChainedCalculator.h"
+#import "GPVideoCamera.h"
+#import "GPOpenGLView.h"
+
 
 @interface ViewController ()
-
+@property (nonatomic, strong) GPVideoCamera *camera;
+@property (nonatomic, weak) GPOpenGLView *openGLView;
 @end
 
 @implementation ViewController
@@ -24,5 +28,36 @@
 
 }
 
+- (void)videoCamera{
+        // 创建摄像头
+        GPVideoCamera *camera = [GPVideoCamera cameraWithSessionPreset:AVCaptureSessionPreset1280x720 postion:AVCaptureDevicePositionFront];
+        _camera = camera;
+        
+        __weak typeof(self) weakSelf = self;
+        camera.captureVideoSampleBufferBlcok = ^(CMSampleBufferRef sampleBuffer){
+            [weakSelf processSampleBuffer:sampleBuffer];
+        };        
+        // 开始捕获数据
+        [camera startCapture];
+    
+}
 
+// 处理图片
+- (void)processSampleBuffer:(CMSampleBufferRef)sampleBuffer
+{
+    // 把图片数据展示屏幕
+    // GPUImage -> OpenGL
+    // 展示到XMGOpenGLView
+    [self.openGLView displayWithSampleBuffer:sampleBuffer];
+}
+
+- (GPOpenGLView *)openGLView
+{
+    if (_openGLView == nil) {
+        GPOpenGLView *openGLView = [[GPOpenGLView alloc] initWithFrame:self.view.bounds];
+        _openGLView = openGLView;
+        [self.view addSubview:openGLView];
+    }
+    return _openGLView;
+}
 @end
