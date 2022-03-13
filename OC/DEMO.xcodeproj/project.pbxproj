@@ -57,6 +57,7 @@
 		E0FB012227B1549200C71112 /* UIView+GPView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012127B1549200C71112 /* UIView+GPView.m */; };
 		E0FB012627B2A2E400C71112 /* GPVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012427B2A2E400C71112 /* GPVideoCamera.m */; };
 		E0FB012927B2A60C00C71112 /* GPOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012827B2A60C00C71112 /* GPOpenGLView.m */; };
+		E0FDA35A27C9D3B900609CC6 /* GPTes.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDA35927C9D3B900609CC6 /* GPTes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +159,8 @@
 		E0FB012527B2A2E400C71112 /* GPVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPVideoCamera.h; sourceTree = "<group>"; };
 		E0FB012727B2A60B00C71112 /* GPOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOpenGLView.h; sourceTree = "<group>"; };
 		E0FB012827B2A60C00C71112 /* GPOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPOpenGLView.m; sourceTree = "<group>"; };
+		E0FDA35827C9D3B900609CC6 /* GPTes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPTes.h; sourceTree = "<group>"; };
+		E0FDA35927C9D3B900609CC6 /* GPTes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPTes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +230,8 @@
 				E04A64E427532AE200ECDC62 /* SceneDelegate.m */,
 				E04A64E627532AE200ECDC62 /* ViewController.h */,
 				E04A64E727532AE200ECDC62 /* ViewController.m */,
+				E0FDA35827C9D3B900609CC6 /* GPTes.h */,
+				E0FDA35927C9D3B900609CC6 /* GPTes.m */,
 				E04A64E927532AE200ECDC62 /* Main.storyboard */,
 				E04A64EC27532AE500ECDC62 /* Assets.xcassets */,
 				E04A64EE27532AE500ECDC62 /* LaunchScreen.storyboard */,
@@ -603,6 +608,7 @@
 				E04FADA327AC1902005E1585 /* GPSqliteTool.m in Sources */,
 				E04FADFD27B13F00005E1585 /* ViewModelClass.m in Sources */,
 				E04A650C275C5AED00ECDC62 /* UIView+GPLayout.m in Sources */,
+				E0FDA35A27C9D3B900609CC6 /* GPTes.m in Sources */,
 				E04FAD8727AA5714005E1585 /* GPDownLoadManager.m in Sources */,
 				E04A650D275C5AED00ECDC62 /* CALayer+PauseAimate.m in Sources */,
 			);

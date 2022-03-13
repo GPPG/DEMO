@@ -10,6 +10,8 @@
 #import "GPChainedCalculator.h"
 #import "GPVideoCamera.h"
 #import "GPOpenGLView.h"
+#import "GPTes.h"
+
 
 
 @interface ViewController ()
@@ -25,6 +27,80 @@
         GPChainedCalculator *mgr = [[GPChainedCalculator alloc] init];
     
         mgr.add(5).add(5).add(7).add(8);
+    
+    CGRect r = CGRectMake(1, 1, 1, 1);
+    
+    CGRect rr = r;
+    
+    r.origin.x = 2;
+    
+    NSLog(@"r:%@-----rr:%@",NSStringFromCGRect(r),NSStringFromCGRect(rr));
+
+    
+    GPTes *t = [[GPTes alloc]init];
+    t.testInt = 1;
+    
+    GPTes *tt = t;
+    
+    tt.testInt = 2;
+    
+    NSLog(@"tt:%ld-----t:%ld",tt.testInt,t.testInt);
+    
+    
+    
+    NSInteger i = 1;
+    NSInteger ii = i;
+    i++;
+    NSLog(@"1:%ld--22:%ld",i,ii);
+    
+    
+    NSMutableString *s = [[NSMutableString alloc]initWithString:@"aaa"];
+    NSMutableString *ss = s;
+    [s appendString:@"222"];
+    
+    NSLog(@"前===s:%@---ss:%@",s,ss);
+    ss = [[NSMutableString alloc]initWithString:@"fghjkl"];
+    NSLog(@"后===s:%@---ss:%@",s,ss);
+
+    
+//    NSMutableArray *array = [NSMutableArray array];
+//    [array addObject:@"1"];
+//
+//    NSMutableArray *tempArray = [NSMutableArray array];
+//
+//    [tempArray addObject:array];
+//
+//    NSMutableArray *aaa = [tempArray mutableCopy];
+//
+//    NSMutableArray *bbb = aaa.firstObject;
+//
+//    [bbb removeAllObjects];
+    
+//    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+//
+//    NSMutableArray *array = [NSMutableArray array];
+//
+//    [array addObject:@"a"];
+//
+//
+//    dic[@"1"] = array;
+    
+//    NSMutableDictionary *copyDic = [dic mutableCopy];
+    
+//    NSMutableArray *copyArray0 = copyDic[@"1"];
+    
+    
+//    [copyArray0 removeAllObjects];
+    
+//    NSMutableArray *copyArray = [dic[@"1"] mutableCopy];
+//
+//    [copyArray removeAllObjects];
+//
+//
+//
+//
+//
+//    NSLog(@"zouni");
 
 }
 

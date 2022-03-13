@@ -14,6 +14,7 @@
 		E04FADCC27ACF882005E1585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04FADCA27ACF882005E1585 /* Main.storyboard */; };
 		E04FADCE27ACF885005E1585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04FADCD27ACF885005E1585 /* Assets.xcassets */; };
 		E04FADD127ACF885005E1585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04FADCF27ACF885005E1585 /* LaunchScreen.storyboard */; };
+		E0FB012B27C0A9CB00C71112 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB012A27C0A9CB00C71112 /* GCD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E04FADCD27ACF885005E1585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04FADD027ACF885005E1585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04FADD227ACF885005E1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0FB012A27C0A9CB00C71112 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				67D5A10B624A47DA80D159F3 /* Pods-SwiftDemo.debug.xcconfig */,
 				2D08149F4E0315D76A9763D2 /* Pods-SwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				E04FADC427ACF882005E1585 /* AppDelegate.swift */,
 				E04FADC627ACF882005E1585 /* SceneDelegate.swift */,
 				E04FADC827ACF882005E1585 /* ViewController.swift */,
+				E0FB012A27C0A9CB00C71112 /* GCD.swift */,
 				E04FADCA27ACF882005E1585 /* Main.storyboard */,
 				E04FADCD27ACF885005E1585 /* Assets.xcassets */,
 				E04FADCF27ACF885005E1585 /* LaunchScreen.storyboard */,
@@ -191,6 +193,7 @@
 			files = (
 				E04FADC927ACF882005E1585 /* ViewController.swift in Sources */,
 				E04FADC527ACF882005E1585 /* AppDelegate.swift in Sources */,
+				E0FB012B27C0A9CB00C71112 /* GCD.swift in Sources */,
 				E04FADC727ACF882005E1585 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
