@@ -136,6 +136,10 @@ static GPDownLoadManager *_shareInstance;
 
 }
 
+- (void)resumeAll{
+    [[self.downLoadInfo allValues] makeObjectsPerformSelector:@selector(resume)];
+
+}
 
 
 @end

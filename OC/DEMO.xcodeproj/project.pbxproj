@@ -213,6 +213,7 @@
 		E04A64DF27532AE200ECDC62 /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				E065AA28288D4D0F00676A2C /* Lock */,
 				E0FB012327B29B4400C71112 /* Camera */,
 				E04FADD927B0FAD2005E1585 /* Programming */,
 				E04FADD827B0F959005E1585 /* RAC */,
@@ -436,6 +437,13 @@
 				E04FADF627B13EFF005E1585 /* ViewModelClass.m */,
 			);
 			path = "RAC&MVVM";
+			sourceTree = "<group>";
+		};
+		E065AA28288D4D0F00676A2C /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 		E0FB012327B29B4400C71112 /* Camera */ = {
