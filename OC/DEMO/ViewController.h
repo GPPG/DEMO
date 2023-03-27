@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+//git config --global user.name "GP"
+//git config --global user.email"821403986@qq.com"
 @end
 
