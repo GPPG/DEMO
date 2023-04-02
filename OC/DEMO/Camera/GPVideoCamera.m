@@ -16,6 +16,8 @@
    
 @implementation GPVideoCamera
 
+
+
 + (instancetype)cameraWithSessionPreset:(NSString *)sessionPreset postion:(AVCaptureDevicePosition)postion
 {
     GPVideoCamera *camera = [[self alloc] init];
