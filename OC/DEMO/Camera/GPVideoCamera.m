@@ -13,7 +13,7 @@
 @property (nonatomic, strong) AVCaptureSession *session;
 @property (nonatomic, weak) AVCaptureVideoDataOutput *videoOutput;
 @end
-
+   
 @implementation GPVideoCamera
 
 + (instancetype)cameraWithSessionPreset:(NSString *)sessionPreset postion:(AVCaptureDevicePosition)postion
